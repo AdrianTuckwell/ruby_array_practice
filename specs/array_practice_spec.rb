@@ -25,6 +25,12 @@ class ArrayPracticeTest < MiniTest::Test
     assert_equal(TRUE, find_element(numbers_array, 6))
   end
 
+  def test_get_last_element()
+    cars_array = ['Mini','Abarth','Ferrari','Audi']
+    assert_equal('Audi', get_last_element(cars_array))
+  end
+
+
 
 
 

@@ -15,11 +15,13 @@ def find_element( array, search_value )
     else
       result = FALSE
     end
-
-    return result
+  return result
   end
 end
 
+def get_last_element( array )
+  return array.last
+end
 
 
 
