@@ -23,5 +23,9 @@ def get_last_element( array )
   return array.last
 end
 
+def get_shortest_cohort( hash )
+  sorted_hash = hash.values.sort
+  return sorted_hash.first
+end
 
 

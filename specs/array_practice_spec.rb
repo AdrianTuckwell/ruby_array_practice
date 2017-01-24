@@ -7,7 +7,6 @@ class ArrayPracticeTest < MiniTest::Test
 
   def setup
 
-
   end #------------ end of setup
 
   def test_count_elements()
@@ -30,6 +29,10 @@ class ArrayPracticeTest < MiniTest::Test
     assert_equal('Audi', get_last_element(cars_array))
   end
 
+  def test_get_shortest_cohort()
+    cohorts_height = { "Bobby" => 5.9, "Diana" => 5.6, "Jo" => 5.4 }
+    assert_equal(5.4, get_shortest_cohort(cohorts_height))
+  end
 
 
 
